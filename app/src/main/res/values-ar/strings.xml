@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">فاتورتي</string>
+
+    <string name="shared_items">الطلبات المشتركة:</string>
+    <string name="individual_items">الطلبات الشخصية:</string>
+    <string name="order_price">سعر الطلب</string>
+    <string name="name">الأسم</string>
+    <string name="calculate">احسب فاتورتي</string>
+    <string name="add_a_name">أدخل الأسم</string>
+    <string name="add_a_price">أدخل قيمة</string>
+    <string name="title_activity_main2">النتيجة </string>
+    <string name="no_values_selected">يجب اختيار قيمة</string>
+    <string name="each_one_should_pay">القيمة المطلوبة من الجميع</string>
+
+    <string name="shared_item_value">القيمة المطلوبة</string>
+
+
+
+</resources>

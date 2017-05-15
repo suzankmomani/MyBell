@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Bell</string>
+
+    <string name="shared_items">Shared Items:</string>
+    <string name="individual_items">Individual Items:</string>
+    <string name="order_price">Order price</string>
+    <string name="name">Name</string>
+    <string name="calculate">Calculate</string>
+    <string name="add_a_name">Please add your friend\'s name</string>
+    <string name="add_a_price">Please add your friend\'s bell</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="no_values_selected">Please select a value first</string>
+    <string name="each_one_should_pay">Each one should pay:</string>
+
+    <string name="shared_item_value">Shared item Value</string>
+
+
+
+</resources>
