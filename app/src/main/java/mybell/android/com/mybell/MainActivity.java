@@ -61,6 +61,13 @@ public class MainActivity extends AppCompatActivity {
         initIndividualsViews();
         initSharedItemsViews();
 
+        Button ocrBtn = (Button) findViewById(R.id.ocrBtn);
+        ocrBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ocrClicked();
+            }
+        });
         Button totalBtn = (Button) findViewById(R.id.totalBtn);
         totalBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -104,6 +111,11 @@ public class MainActivity extends AppCompatActivity {
         } else {
             intent.putExtra(Constants.INDIVIDUAL, (Serializable) individualItems);
         }
+        startActivity(intent);
+    }
+    private void ocrClicked() {
+        Intent intent = new Intent(this, Main2Activity.class);
+
         startActivity(intent);
     }
 
